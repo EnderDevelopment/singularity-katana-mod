@@ -1,0 +1,19 @@
+[[mods]]
+modId="domainawakeningmod"
+displayName="Domain Awakening Mod"
+version="${file.jarVersion}"
+description='''A Minecraft mod featuring the Singularity Katana and Singularity Slash ability.'''
+
+[[dependencies.domainawakeningmod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.domainawakeningmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
